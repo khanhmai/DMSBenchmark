@@ -20,6 +20,13 @@
 		$(table2).find("."+column).removeClass('hov-column-'+ verTable);
 		$(table1).find(".row100.head ."+column).removeClass('hov-column-head-'+ verTable);
 	});
-    
+	
+	
+	$(".button-metric").click(function () {
+        var $case = $(this).attr("case");
+        $("." + $case).toggle(500);
+    });
+	
+	$(".popup").fadeOut();
 
 })(jQuery);

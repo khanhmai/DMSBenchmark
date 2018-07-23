@@ -177,7 +177,7 @@ th, td {
 
 .column1 {
   width: 12%;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .column2 {
@@ -302,7 +302,7 @@ th, td {
 }
 
 .table100.ver2 .table100-body tr {
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 3px solid #f2f2f2;
 }
 
 /*---------------------------------------------*/
@@ -596,4 +596,13 @@ th, td {
 
 .body .column1 {
   text-align: left;
+}
+
+.button-metric {
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    background: rgb(28, 184, 65); /* this is a green */
+    float: right;
 }
