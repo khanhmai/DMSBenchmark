@@ -47,31 +47,36 @@
 						<table>
 							<tbody>
 								<tr class="row100 body">
-									<td class="cell100 column1" rowspan="8">Like a butterfly</td>
-									<td class="cell100 column2 rowDuration">32:20:89</td>
-									<td class="cell100 column3 rowDuration">18:30:29</td>
-									<td class="cell100 column4 rowDuration">23:43:19</td>
-									<td class="cell100 column5 rowDuration">19:39:27</td>
+									<td class="cell100 column1">From VM 4 cores to Azure SQL  Server</td>
+									<td class="cell100 column2 rowDuration">34:22:44</td>
+									<td class="cell100 column3 rowDuration">19:27:53</td>
+									<td class="cell100 column4 rowDuration">23:31:40</td>
+									<td class="cell100 column5 rowDuration">15:53:01</td>
 								</tr>
 								
 								<!-- row 1 -->
 								<tr class="row100 body popup">
-									<!-- <td class="cell100 column1">Mind & Body</td> -->
-									<td class="cell100 column2">
-										<p>Source VM - CPU</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" title = "Source VM - CPU - 4 cores"/>
+									<td class="cell100 column1" rowspan="3">
+										<h3>Source VM:</h3></br>
+										* Size: D4s-V3 (4 cores - 16 GB)</br>
+										* Db: 2TB - 10tbs</br>
+										* SQL Server 2017 Standard on Windows Server 2016</br>										
 									</td>
 									<td class="cell100 column2">
 										<p>Source VM - CPU</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" title = "Source VM - CPU - 8 cores"/>
+										<img class="metric" src="result/vm-sql/4/sourcevm-cpu.png" title = "Source VM - CPU - 4 cores"/>
 									</td>
 									<td class="cell100 column2">
 										<p>Source VM - CPU</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" title = "Source VM - CPU - 16 cores"/>
+										<img class="metric" src="result/vm-sql/8/sourcevm-cpu.png" title = "Source VM - CPU - 8 cores"/>
 									</td>
 									<td class="cell100 column2">
 										<p>Source VM - CPU</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" title = "Source VM - CPU - 32 cores"/>
+										<img class="metric" src="result/vm-sql/16/sourcevm-cpu.png" title = "Source VM - CPU - 16 cores"/>
+									</td>
+									<td class="cell100 column2">
+										<p>Source VM - CPU</p>
+										<img class="metric" src="result/vm-sql/32/sourcevm-cpu.png" title = "Source VM - CPU - 32 cores"/>
 									</td>
 								</tr>
 
@@ -79,20 +84,20 @@
 								<tr class="row100 body popup">
 									<!-- <td class="cell100 column1">Mind & Body</td> -->
 									<td class="cell100 column2">
-										<p>Source VM - Network (Total)</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Source VM - Network In</p>
+										<img class="metric" src="result/vm-sql/4/sourcevm-networkin.png" title = "Source VM - Network In - 4 cores" />
 									</td>
 									<td class="cell100 column2">
-										<p>Source VM Network (Total)</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Source VM - Network In</p>
+										<img class="metric" src="result/vm-sql/8/sourcevm-networkin.png" title = "Source VM - Network In - 8 cores"/>
 									</td>
 									<td class="cell100 column2">
-										<p>Source VM - Network (Total)</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Source VM - Network In</p>
+										<img class="metric" src="result/vm-sql/16/sourcevm-networkin.png" title = "Source VM - Network In - 16 cores"/>
 									</td>
 									<td class="cell100 column2">
-										<p>Source VM - Network (Total)</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Source VM - Network In</p>
+										<img class="metric" src="result/vm-sql/32/sourcevm-networkin.png" title = "Source VM - Network In - 32 cores"/>
 									</td>
 								</tr>
 
@@ -100,41 +105,45 @@
 								<tr class="row100 body popup">
 									<!-- <td class="cell100 column1">Mind & Body</td> -->
 									<td class="cell100 column2">
-										<p>Agent VM - CPU</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Source VM - Network Out</p>
+										<img class="metric" src="result/vm-sql/4/sourcevm-networkout.png" title = "Source VM - Network Out - 4 cores" />
 									</td>
 									<td class="cell100 column2">
-										<p>Agent VM - CPU</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Source VM - Network Out</p>
+										<img class="metric" src="result/vm-sql/8/sourcevm-networkout.png" title = "Source VM - Network Out - 8 cores"/>
 									</td>
 									<td class="cell100 column2">
-										<p>Agent VM - CPU</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Source VM - Network Out</p>
+										<img class="metric" src="result/vm-sql/16/sourcevm-networkout.png" title = "Source VM - Network Out - 16 cores"/>
 									</td>
 									<td class="cell100 column2">
-										<p>Agent VM - CPU</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Source VM - Network Out</p>
+										<img class="metric" src="result/vm-sql/32/sourcevm-networkout.png" title = "Source VM - Network Out - 32 cores"/>
 									</td>
 								</tr>
 
+								
 								<!-- row 4 -->
 								<tr class="row100 body popup">
-									<!-- <td class="cell100 column1">Mind & Body</td> -->
-									<td class="cell100 column2">
-										<p>Agent VM - Network (Total)</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+									<td class="cell100 column1" rowspan="2">
+										<h3>Agent VM:</h3></br>
+																			
 									</td>
 									<td class="cell100 column2">
-										<p>Agent VM Network (Total)</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Agent VM - CPU</p>
+										<img class="metric" src="result/vm-sql/4/agentvm-cpu.png" title = "Agent VM - CPU - 4 cores"/>
 									</td>
 									<td class="cell100 column2">
-										<p>Agent VM - Network (Total)</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Agent VM - CPU</p>
+										<img class="metric" src="result/vm-sql/8/agentvm-cpu.png" title = "Agent VM - CPU - 8 cores"/>
 									</td>
 									<td class="cell100 column2">
-										<p>Agent VM - Network (Total)</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Agent VM - CPU</p>
+										<img class="metric" src="result/vm-sql/16/agentvm-cpu.png" title = "Agent VM - CPU - 16 cores"/>
+									</td>
+									<td class="cell100 column2">
+										<p>Agent VM - CPU</p>
+										<img class="metric" src="result/vm-sql/32/agentvm-cpu.png" title = "Agent VM - CPU - 32 cores"/>
 									</td>
 								</tr>
 
@@ -142,62 +151,91 @@
 								<tr class="row100 body popup">
 									<!-- <td class="cell100 column1">Mind & Body</td> -->
 									<td class="cell100 column2">
-										<p>Target DB - DTU percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Agent VM - Network (Total)</p>
+										<img class="metric" src="result/vm-sql/4/agentvm-network.png" title = "Agent VM - Network (Total) - 4 cores" />
 									</td>
 									<td class="cell100 column2">
-										<p>Target DB - DTU percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Agent VM - Network (Total)</p>
+										<img class="metric" src="result/vm-sql/8/agentvm-network.png" title = "Agent VM - Network (Total) - 8 cores"/>
 									</td>
 									<td class="cell100 column2">
-										<p>Target DB - DTU percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Agent VM - Network (Total)</p>
+										<img class="metric" src="result/vm-sql/16/agentvm-network.png" title = "Agent VM - Network (Total) - 16 cores"/>
 									</td>
 									<td class="cell100 column2">
-										<p>Target DB - DTU percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<p>Agent VM - Network (Total)</p>
+										<img class="metric" src="result/vm-sql/32/agentvm-network.png" title = "Agent VM - Network (Total) - 32 cores"/>
 									</td>
 								</tr>
 
-								<!-- row 6 -->
-								<tr class="row100 body popup">
-									<!-- <td class="cell100 column1">Mind & Body</td> -->
-									<td class="cell100 column2">
-										<p>Target DB - CPU percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
-									</td>
-									<td class="cell100 column2">
-										<p>Target DB - CPU percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
-									</td>
-									<td class="cell100 column2">
-										<p>Target DB - CPU percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
-									</td>
-									<td class="cell100 column2">
-										<p>Target DB - CPU percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
-									</td>
-								</tr>
+								
 
 								<!-- row 7 -->
 								<tr class="row100 body popup">
+									<td class="cell100 column1" rowspan="3">
+										<h3>Target Database:</h3></br>
+										* Sku: P15<br>
+										* DTU: 4000 <br>
+										* Size: 4TB
+										
+									</td>
+									<td class="cell100 column2">
+										<p>Target DB - DTU percentage </p>
+										<img class="metric" src="result/vm-sql/4/target-dtu.PNG" title = "Target DB - DTU percentage - 4 cores"/>
+									</td>
+									<td class="cell100 column2">
+										<p>Target DB - DTU percentage </p>
+										<img class="metric" src="result/vm-sql/8/target-dtu.PNG" title = "Target DB - DTU percentage - 8 cores"/>
+									</td>
+									<td class="cell100 column2">
+										<p>Target DB - DTU percentage </p>
+										<img class="metric" src="result/vm-sql/16/target-dtu.PNG" title = "Target DB - DTU percentage - 16 cores"/>
+									</td>
+									<td class="cell100 column2">
+										<p>Target DB - DTU percentage </p>
+										<img class="metric" src="result/vm-sql/32/target-dtu.PNG" title = "Target DB - DTU percentage - 32 cores"/>
+									</td>
+								</tr>
+
+								<!-- row 8 -->
+								<tr class="row100 body popup">
+									<!-- <td class="cell100 column1">Mind & Body</td> -->
+									<td class="cell100 column2">
+										<p>Target DB - CPU percentage </p>
+										<img class="metric" src="result/vm-sql/4/target-cpu.PNG" title = "Target DB - CPU percentage - 4 cores"/>
+									</td>
+									<td class="cell100 column2">
+										<p>Target DB - CPU percentage </p>
+										<img class="metric" src="result/vm-sql/8/target-cpu.PNG" title = "Target DB - CPU percentage - 8 cores"/>
+									</td>
+									<td class="cell100 column2">
+										<p>Target DB - CPU percentage </p>
+										<img class="metric" src="result/vm-sql/16/target-cpu.PNG" title = "Target DB - CPU percentage - 16 cores"/>
+									</td>
+									<td class="cell100 column2">
+										<p>Target DB - CPU percentage </p>
+										<img class="metric" src="result/vm-sql/32/target-cpu.PNG" title = "Target DB - CPU percentage - 32 cores"/>
+									</td>
+								</tr>
+
+								<!-- row 9 -->
+								<tr class="row100 body popup">
 									<!-- <td class="cell100 column1">Mind & Body</td> -->
 									<td class="cell100 column2">
 										<p>Target DB - Data IO Percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<img class="metric" src="result/vm-sql/4/target-data.PNG" title = "Target DB - Data IO Percentage - 4 cores"/>
 									</td>
 									<td class="cell100 column2">
 										<p>Target DB - Data IO Percentage</p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<img class="metric" src="result/vm-sql/8/target-data.PNG" title = "Target DB - Data IO Percentage - 8 cores"/>
 									</td>
 									<td class="cell100 column2">
 										<p>Target DB - Data IO Percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<img class="metric" src="result/vm-sql/16/target-data.PNG" title = "Target DB - Data IO Percentage - 16 cores"/>
 									</td>
 									<td class="cell100 column2">
 										<p>Target DB - Data IO Percentage </p>
-										<img class="metric" src="result/vm-sql/sourcevm-cpu.png" />
+										<img class="metric" src="result/vm-sql/32/target-data.PNG" title = "Target DB - Data IO Percentage - 32 cores"/>
 									</td>
 								</tr>
 
@@ -205,165 +243,7 @@
 									<td colspan="5"></td>
 								</tr>
 
-								<tr class="row100 body">
-									<td class="cell100 column1">Crit Cardio</td>
-									<td class="cell100 column2">Gym</td>
-									<td class="cell100 column3">9:00 AM - 10:00 AM</td>
-									<td class="cell100 column4">Aaron Chapman</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Wheel Pose Full Posture</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">7:00 AM - 8:30 AM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">15</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Playful Dancer's Flow</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">8:00 AM - 9:00 AM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Zumba Dance</td>
-									<td class="cell100 column2">Dance</td>
-									<td class="cell100 column3">5:00 PM - 7:00 PM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">20</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Cardio Blast</td>
-									<td class="cell100 column2">Gym</td>
-									<td class="cell100 column3">5:00 PM - 7:00 PM</td>
-									<td class="cell100 column4">Randy Porter</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Pilates Reformer</td>
-									<td class="cell100 column2">Gym</td>
-									<td class="cell100 column3">8:00 AM - 9:00 AM</td>
-									<td class="cell100 column4">Randy Porter</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Supple Spine and Shoulders</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">6:30 AM - 8:00 AM</td>
-									<td class="cell100 column4">Randy Porter</td>
-									<td class="cell100 column5">15</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Yoga for Divas</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">9:00 AM - 11:00 AM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">20</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Virtual Cycle</td>
-									<td class="cell100 column2">Gym</td>
-									<td class="cell100 column3">8:00 AM - 9:00 AM</td>
-									<td class="cell100 column4">Randy Porter</td>
-									<td class="cell100 column5">20</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Like a butterfly</td>
-									<td class="cell100 column2">Boxing</td>
-									<td class="cell100 column3">9:00 AM - 11:00 AM</td>
-									<td class="cell100 column4">Aaron Chapman</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Mind & Body</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">8:00 AM - 9:00 AM</td>
-									<td class="cell100 column4">Adam Stewart</td>
-									<td class="cell100 column5">15</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Crit Cardio</td>
-									<td class="cell100 column2">Gym</td>
-									<td class="cell100 column3">9:00 AM - 10:00 AM</td>
-									<td class="cell100 column4">Aaron Chapman</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Wheel Pose Full Posture</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">7:00 AM - 8:30 AM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">15</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Playful Dancer's Flow</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">8:00 AM - 9:00 AM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Zumba Dance</td>
-									<td class="cell100 column2">Dance</td>
-									<td class="cell100 column3">5:00 PM - 7:00 PM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">20</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Cardio Blast</td>
-									<td class="cell100 column2">Gym</td>
-									<td class="cell100 column3">5:00 PM - 7:00 PM</td>
-									<td class="cell100 column4">Randy Porter</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Pilates Reformer</td>
-									<td class="cell100 column2">Gym</td>
-									<td class="cell100 column3">8:00 AM - 9:00 AM</td>
-									<td class="cell100 column4">Randy Porter</td>
-									<td class="cell100 column5">10</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Supple Spine and Shoulders</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">6:30 AM - 8:00 AM</td>
-									<td class="cell100 column4">Randy Porter</td>
-									<td class="cell100 column5">15</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Yoga for Divas</td>
-									<td class="cell100 column2">Yoga</td>
-									<td class="cell100 column3">9:00 AM - 11:00 AM</td>
-									<td class="cell100 column4">Donna Wilson</td>
-									<td class="cell100 column5">20</td>
-								</tr>
-
-								<tr class="row100 body">
-									<td class="cell100 column1">Virtual Cycle</td>
-									<td class="cell100 column2">Gym</td>
-									<td class="cell100 column3">8:00 AM - 9:00 AM</td>
-									<td class="cell100 column4">Randy Porter</td>
-									<td class="cell100 column5">20</td>
-								</tr>
+								
 							</tbody>
 						</table>
 					</div>

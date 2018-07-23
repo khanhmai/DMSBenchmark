@@ -561,8 +561,8 @@ th, td {
   left: 0;
 }
 .show .img-show{
-  width: 80%;
-  height: 60%;
+  width: 1000px;
+  height: 600px;
   background: #FFF;
   position: absolute;
   top: 50%;
@@ -592,4 +592,8 @@ th, td {
   line-height: 1.4;
   text-align: center;
   background-color: transparent;
+}
+
+.body .column1 {
+  text-align: left;
 }
