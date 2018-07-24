@@ -27,6 +27,10 @@
         $("." + $case).toggle(500);
     });
 	
+	$(".show-all").click(function () {
+		$(".popup").fadeIn();
+	});
+
 	$(".popup").fadeOut();
 
 })(jQuery);
