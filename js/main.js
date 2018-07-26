@@ -31,6 +31,4 @@
 		$(".popup").fadeIn();
 	});
 
-	$(".popup").fadeOut();
-
 })(jQuery);

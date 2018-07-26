@@ -541,7 +541,8 @@ th, td {
 .popup{
   width: 900px;
   margin: auto;
-  text-align: center
+  text-align: center;
+  display: none;
 }
 .popup img{
   /* width: 200px; */
